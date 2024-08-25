@@ -1,0 +1,217 @@
+body {
+    background-color: rgb(198, 239, 239);
+
+}
+
+.borde {
+    align-items: center;
+    background-color: rgb(83, 165, 236);
+
+}
+
+.img {
+    width: 100%;
+    margin: auto;
+
+}
+.imagen-registro{
+    width: 20%;
+    height: auto;
+   
+}
+.imagen-buscar{
+    width: 30%;
+    height: auto;  
+    align-items: center;
+
+}
+.menu{
+    
+    height: auto;
+   
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    background-color: rgb(20, 75, 121);
+
+    
+}
+.nombre{
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.main-content {
+    padding: 10vh;
+    background-color: rgb(224, 254, 254);
+    text-align: center;
+}
+
+.footer {
+    padding: 20px;
+    background-color: rgb(20, 75, 121);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    padding: 22px;}
+
+footer p {
+    color: rgb(243, 219, 36);
+
+}
+
+.sobre-nosotros {
+    width: 100%;
+    margin: auto;
+    border: 1px solid rgb(221, 94, 94);
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        background-color: yellow;
+    }
+
+    .logo {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .nombre {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .registro {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .buscar {
+        width: 100%;
+        display: none;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 301px) and (max-width:600px) {
+    body {
+        background-color: rgb(8, 0, 253);
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .nombre {
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .registro {
+        width:50%;
+    }
+
+    .buscar {
+        width: 50%;
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width:900px) {
+    body {
+        background-color: rgb(250, 22, 22);
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .nombre {
+        width: 40%;
+    }
+
+    .menu {
+        width: 30%;
+    }
+
+    .registro {
+        width: 50%;
+    }
+
+    .buscar {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 901px) and (max-width:1200px) {
+    body {
+        background-color: violet;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .nombre {
+        width: 30%;
+    }
+
+    .menu {
+        width: 20%;
+    }
+
+    .registro {
+        width: 10%;
+    }
+
+    .buscar {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-color: green;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    .nombre {
+        width: 20%;
+    }
+
+    .menu {
+        width: 40%;
+    }
+
+    .registro {
+        width: 20%;
+    }
+
+    .buscar {
+        width: 10%;
+    }
+
+}
